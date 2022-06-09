@@ -1,0 +1,107 @@
+#logo{
+    width: 20em;
+    opacity: 0.5;
+    
+}
+
+
+
+
+#tiere{
+    margin-top: 300px;
+    
+    
+}
+#tiger{
+    border: solid;
+    
+    border-radius: 10px;
+
+
+}
+
+#zudentierentext{
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(177, 211, 240);
+    
+    border-radius: 10px;
+    
+}
+.row{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#demo{
+    margin-top: 10px;
+}
+#title{
+    max-height: 500px;
+    max-block-size: 700px;
+}
+body{
+    background-image: url(images/snake_new.png);
+    
+    background-position-y: 0%;
+    background-position-x: left;
+    background-size: cover;
+    
+}
+#zudentierenbutton{
+    color: gray;
+    background-color: aliceblue;
+
+}
+#zudentierenbutton:hover {
+    background-color: rgb(93, 151, 201)
+  }
+
+
+#wirsindhier{
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: rgb(177, 211, 240);
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    
+}
+#wirsindhierbutton{
+    margin-left: 69px;
+}
+#home-footer{
+    border:  solid 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+th, td {
+    padding: 15px;
+} 
+
+  table td + td{ border-left:2px solid gray;
+    padding-bottom: 10px; 
+}
+th {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 998px){
+    #zudentierentext{
+        margin-top: 70px;
+    }
+
+
+}
+@media screen and (min-width: 998px){
+    #zudentierentext{
+        padding-top: 170px;
+    }
+}

@@ -1,7 +1,10 @@
 #logo{
     width: 20em;
     opacity: 0.5;
-    
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 
@@ -12,6 +15,16 @@
     
     
 }
+#allgemeintext{
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 80px;
+    background-color: rgb(177, 211, 240);
+    
+    
+
+}
+
 #tiger{
     border: solid;
     
@@ -32,6 +45,26 @@
     margin-right: 8px;
     margin-left: 8px;
 }
+.tierbild{
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.tierart{
+    border-style: solid;
+    background-color:rgb(177, 211, 240); 
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 5px;
+
+
+}
+img{
+    margin-bottom: 10px;
+}
+form{
+    margin-bottom: 10px;
+}
+
 
 #demo{
     margin-top: 10px;
@@ -41,7 +74,7 @@
     max-block-size: 700px;
 }
 body{
-    background-image: url(images/snake_new.png);
+    background-image: url(images/snake_new2.png);
     
     background-position-y: 0%;
     background-position-x: left;
@@ -73,10 +106,10 @@ body{
 #wirsindhierbutton{
     margin-left: 69px;
 }
-#home-footer{
+.footer{
     border:  solid 5px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: white;
@@ -103,5 +136,10 @@ th {
 @media screen and (min-width: 998px){
     #zudentierentext{
         padding-top: 170px;
+    }
+}
+@media screen and (min-width: 998px){
+    #allgemeintext{
+        max-width: 50%;
     }
 }

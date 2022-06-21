@@ -4,8 +4,9 @@
     border-radius: 5px;
     float: right;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
+
 
 
 
@@ -15,7 +16,7 @@
     
     
 }
-#allgemeintext{
+.allgemeintext{
     border-radius: 10px;
     border-style: solid;
     margin-top: 80px;
@@ -24,6 +25,7 @@
     
 
 }
+
 
 #tiger{
     border: solid;
@@ -53,17 +55,36 @@
     border-style: solid;
     background-color:rgb(177, 211, 240); 
     margin-top: 20px;
-    border-radius: 10px;
-    border-width: 5px;
-
+    
 
 }
 img{
     margin-bottom: 10px;
+    width: 48%;
+    border-radius: 10px;
+    border-width: 5px;
+
+    
+}
+#koalabild{
+width: 60%;
+
 }
 form{
     margin-bottom: 10px;
 }
+#tiger{
+    width: 48%;
+}
+#monkey{
+    width: 48%;
+}
+#frog{
+    width:48%;
+}
+
+
+
 
 
 #demo{
@@ -79,6 +100,7 @@ body{
     background-position-y: 0%;
     background-position-x: left;
     background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 #zudentierenbutton{
@@ -88,7 +110,23 @@ body{
 }
 #zudentierenbutton:hover {
     background-color: rgb(93, 151, 201)
-  }
+}
+.event{
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 50%;
+    margin-top: 60px;
+    background-color:rgb(177, 211, 240) ;
+    padding-top: 5px;
+    
+}
+strong{
+    border-style: solid;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+   
 
 
 #wirsindhier{
@@ -106,6 +144,8 @@ body{
 #wirsindhierbutton{
     margin-left: 69px;
 }
+
+  
 .footer{
     border:  solid 5px;
     margin-left: 10px;
@@ -139,7 +179,7 @@ th {
     }
 }
 @media screen and (min-width: 998px){
-    #allgemeintext{
+    #tiertext{
         max-width: 50%;
     }
 }
